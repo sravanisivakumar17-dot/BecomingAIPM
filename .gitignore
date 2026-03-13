@@ -1,0 +1,9 @@
+.env
+credentials.json
+token.json
+Data/minutes.txt
+
+_pycache_/
+*.pyc
+.venv/
+venv/
