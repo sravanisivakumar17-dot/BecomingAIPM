@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from extract import extract_action_items
 from google_docs import append_action_items
 
+# adding a comment for testing purposes.
 
 def read_minutes(path: str) -> str:
     print(f"[main] Reading minutes from: {path}", flush=True)
