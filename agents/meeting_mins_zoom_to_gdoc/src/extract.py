@@ -34,6 +34,8 @@ def _extract_json_object(text: str) -> dict:
     """
     text = text.strip()
 
+    print("This is a test")
+
     # Best case: pure JSON
     try:
         return json.loads(text)
